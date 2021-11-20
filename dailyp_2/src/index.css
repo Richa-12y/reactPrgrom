@@ -1,3 +1,13 @@
+.mainbox{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  width: 100%;
+
+}
+
 .box1{
   display: flex;
   flex-direction: row;
@@ -14,7 +24,6 @@
 }
 
 .box2{
-
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -27,10 +36,66 @@
     border: 5px solid blue;
     color: whitesmoke;
     font-weight: bold;
+}
+button{ display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  background: #2ac4b2;
+  color: white;
+  font-weight: bold;
+  background:#2ac4b2 ;
+  border-radius: 12px;
 
+}
 
+.box3{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  width: 150px;
+  height: 150px;
+  border-radius: 12px;
+  border: 5px solid blue;
+  color: whitesmoke;
+  font-weight: bold;
+}
+.box4{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  width: 150px;
+  height: 150px;
+  border-radius: 12px;
+  color: whitesmoke;
+  font-weight: bold;
+}
 
+.main{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(134, 126, 126);
+  width:100%;
+}
 
-    
-
+.my-button {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  border: none;
+  border-radius: 100px;
+  outline: none;
+  background: #b71540;
+  color: white; 
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+.my-button:hover {
+  background: #eb2f06;
 }

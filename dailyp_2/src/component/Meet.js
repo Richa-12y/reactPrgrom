@@ -10,11 +10,13 @@ const Meet = () => {
       <>
        <div>
        <div className="App">
-       <div onClick ={getClick} className={isRicha? 'box1':'box2'}>Richa</div>
-       <div onClick ={getClick} className={!isRicha? 'box1':'box2'}>Shanu</div>
+       <div className="mainbox">
+       <div onClick ={getClick} className={isRicha? 'box1':'box2'}>{isRicha?'Richa':'Sanu'}</div>
+       <div onClick ={getClick} className={!isRicha? 'box1':'box2'}>{!isRicha?'Richa':'Sanu'}</div>
        <button onClick ={getClick}>Click me</button>
       </div>
       </div>
+       </div>
       </>
       
     
