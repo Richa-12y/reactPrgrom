@@ -5,14 +5,17 @@ import Meet from './component/Meet';
 import RestaurantDetails from './component/RestaurantDetails';
 import Zoom from './component/Zoom';
 import 'animate.css';
-
-
 //cardHeading,cardText1,cardRievText,footerText//
 
 
 
 function App ()
 {
+
+  const name ="Richa";
+  const currDate= new Date().toLocaleDateString();
+  const currTime= new Date().toLocaleTimeString();
+
   const [backgroundColor, setBackgroundColor] = useState('blue')
   const [textColor, setTextColor] = useState('white')
   const [selectethemColor, selecTethemColor] = useState('true')
@@ -67,6 +70,15 @@ function App ()
           <button style={{ background: backgroundColor, color: textColor }}>Submit From</button>
         </div>}
       </>
+
+      ReactDom.render (
+        <>
+            <h1>Hello,My name is {name}</h1>
+            <p>Current Date is = {currDate} </p>
+            <p> Current Time is ={currTime}</p>
+        </>
+    
+
     </div>
 
   );
