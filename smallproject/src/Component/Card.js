@@ -10,7 +10,6 @@ const Card = ({Img,Text1}) => {
         <div className="txtd">
         <p><b>{Text1}</b></p>
         </div>
-
         </div>
         </div>
 

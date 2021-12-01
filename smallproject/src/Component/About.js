@@ -19,16 +19,12 @@ const About = () =>
                 <Card Img= "https://tse1.mm.bing.net/th?id=OIP.U6C9NaVSKOKK3ivMyyV8mAHaGb&pid=Api&P=0&w=178&h=156" Text1="Improved Visibility & Transparency"/>
                 <Card Img= "https://tse4.mm.bing.net/th?id=OIP.a1jqpKlsVPxqOWSlmd3dJgHaFj&pid=Api&P=0&w=222&h=168" Text1="Improved Accurancy"/>
                 <Card Img= "https://tse4.mm.bing.net/th?id=OIP.T-o7XCr9Pnq3N-r6hee_KAHaHa&pid=Api&P=0&w=300&h=300" Text1="Higher Compliance"/>
-
+                
                 </div>
-            </div>
+                </div>
         </div>
     )
 }
-
-
-
-
 
 
 export default About
