@@ -19,7 +19,6 @@ const Home = () =>
             <div className="imgDesign">
                 <div>
                     <img src="https://tse3.mm.bing.net/th?id=OIP.ilIaDOjE7AshYnN7INUiugHaEK&pid=Api&P=0&w=279&h=158" alt="imae" style={{ width: "400px", height: "300px" }} />
-
                 </div>
                 <div className="aboutt">
                     <h1>About Me</h1>
